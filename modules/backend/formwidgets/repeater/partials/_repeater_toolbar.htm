@@ -1,0 +1,20 @@
+<div class="field-repeater-toolbar">
+    <?php if ($useGroups): ?>
+        <a
+            href="javascript:;"
+            data-repeater-add-group
+            data-attach-loading>
+            <i class="icon-plus"></i>
+            <?= e(trans($prompt)) ?>
+        </a>
+    <?php else: ?>
+        <a
+            href="javascript:;"
+            data-repeater-add
+            data-request="<?= $this->getEventHandler('onAddItem') ?>"
+            data-attach-loading>
+            <i class="icon-plus"></i>
+            <?= e(trans($prompt)) ?>
+        </a>
+    <?php endif ?>
+</div>

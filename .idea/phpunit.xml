@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PHPUnit">
+    <option name="directories">
+      <list>
+        <option value="$PROJECT_DIR$/modules/cms/tests" />
+        <option value="$PROJECT_DIR$/modules/media/tests" />
+        <option value="$PROJECT_DIR$/modules/system/tests" />
+        <option value="$PROJECT_DIR$/modules/backend/tests" />
+      </list>
+    </option>
+  </component>
+</project>

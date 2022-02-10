@@ -1,0 +1,27 @@
+title = "Genres"
+layout = "default"
+url = "/genres/:slug"
+
+[builderDetails]
+modelClass = "Watchlearn\Movies\Models\Genre"
+identifierValue = "{{ :slug }}"
+modelKeyColumn = "slug"
+displayColumn = "genre_title"
+notFoundMessage = "Record not found"
+==
+{% set record = builderDetails.record %}
+{% set displayColumn = builderDetails.displayColumn %}
+{% set notFoundMessage = builderDetails.notFoundMessage %}
+
+<div class="container-fluid">
+    {% if record %}
+        <h2 class="mb-4">{{ attribute(record, displayColumn) }}</h2>
+
+    {% for movie in record.movies %}
+        {{ movie.name }}<br />
+    {% endfor %}
+
+    {% else %}
+        {{ notFoundMessage }}
+    {% endif %}
+</div>
