@@ -5,10 +5,10 @@ use Model;
 /**
  * Model
  */
-class Movie extends Model
+class Actor extends Model
 {
     use \October\Rain\Database\Traits\Validation;
-
+    
     /*
      * Disable timestamps by default.
      * Remove this line if timestamps are defined in the database table.
@@ -19,34 +19,19 @@ class Movie extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'watchlearn_movies_';
-
-    //protected $jsonable = ['actors'];
-
-    /* Relations */
+    public $table = 'watchlearn_movies_actors';
 
     public $belongsToMany =[
-        'genres' => [
-            'watchlearn\Movies\Models\Genre',
-            'table' => 'watchlearn_movies_movies_genres',
-            'order' => 'genre_title'
-        ],
-
-        'actors' => [
-            'watchlearn\Movies\Models\Actor',
+        'movies' => [
+            'watchlearn\Movies\Models\Movie',
             'table' => 'watchlearn_movies_actors_movies',
             'order' => 'name'
         ]
     ];
 
-    public $attachOne = [
-        'poster' => 'System\Models\File'
-    ];
-
-    public $attachMany = [
-        'movie_gallery' => 'System\Models\File'
-    ];
-
+    public function getFullNameAttribute(){
+        return $this->name . " " . $this->lastname;
+    }
 
     /**
      * @var array Validation rules

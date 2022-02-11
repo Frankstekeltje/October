@@ -18,3 +18,7 @@ navigation:
                 label: Movies
                 url: watchlearn/movies/movies
                 icon: icon-video-camera
+            side-menu-item3:
+                label: Actors
+                url: watchlearn/movies/actors
+                icon: icon-users
