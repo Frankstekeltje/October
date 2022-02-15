@@ -2,6 +2,7 @@
 
 use Backend\Classes\FormWidgetBase;
 use Config;
+use function Symfony\Component\HttpKernel\HttpCache\save;
 use Watchlearn\Movies\Models\Actor;
 
 class Actorbox extends FormWidgetBase
@@ -29,6 +30,28 @@ class Actorbox extends FormWidgetBase
             $this->vars['selectedValues'] = [];
         }
 
+    }
+
+    public function getSaveValue($actors)
+    {
+        $newArray = [];
+
+        foreach ($actors as $actorID){
+            if(!is_numeric($actorID)){
+                $newActor = new Actor;
+                $nameLastname = explode(' ', $actorID);
+                $newActor->name = $nameLastname[0];
+                $newActor->lastname = $nameLastname[1];
+                $newActor->save();
+                $newArray[] = $newActor->id;
+            }
+            else{
+                $newArray[] = $actorID;
+            }
+        }
+
+
+        return $newArray;
     }
 
     public function loadAssets()
