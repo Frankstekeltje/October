@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8371546ccfe3537e2361b0be4e31737c",
+    "content-hash": "97a2108f21c80e6a67ca64e9a758a1f8",
     "packages": [
         {
             "name": "brick/math",
@@ -3601,6 +3601,48 @@
                 "issues": "https://github.com/rainlab/builder-plugin/issues"
             },
             "time": "2021-09-18T05:47:09+00:00"
+        },
+        {
+            "name": "rainlab/user-plugin",
+            "version": "v1.6.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://gateway.octobercms.com/composer/dist/rainlab/user-plugin/rainlab-user-plugin-a3edbb6a032ffa1aa98118ca946621979a01cb90-zip-ebb072.zip",
+                "reference": "a3edbb6a032ffa1aa98118ca946621979a01cb90",
+                "shasum": "1a7e08a6131e22690302a95240e6c424f46aab4d"
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.5.9"
+            },
+            "type": "october-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexey Bobkov",
+                    "email": "aleksey.bobkov@gmail.com",
+                    "role": "Co-founder"
+                },
+                {
+                    "name": "Samuel Georges",
+                    "email": "daftspunky@gmail.com",
+                    "role": "Co-founder"
+                }
+            ],
+            "description": "User plugin for October CMS",
+            "homepage": "https://octobercms.com/plugin/rainlab-user",
+            "keywords": [
+                "october",
+                "octobercms",
+                "user"
+            ],
+            "support": {
+                "source": "https://github.com/rainlab/user-plugin/tree/v1.6.1",
+                "issues": "https://github.com/rainlab/user-plugin/issues"
+            },
+            "time": "2022-01-02T23:39:08+00:00"
         },
         {
             "name": "ramsey/collection",

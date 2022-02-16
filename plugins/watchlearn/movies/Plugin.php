@@ -6,6 +6,10 @@ class Plugin extends PluginBase
 {
     public function registerComponents()
     {
+        return[
+            'Watchlearn\Movies\Components\Actors' => 'actors',
+            'Watchlearn\Movies\Components\Actorform' => 'actorform'
+        ];
     }
 
     public function registerFormWidgets()

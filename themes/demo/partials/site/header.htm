@@ -5,6 +5,19 @@
                     <div class="navbar-nav">
                         <a class="nav-link text-white" href="{{ 'index'|page }}">Home</a>
                         <a class="nav-link text-white" href="{{ 'movies'|page }}">Movies</a>
+                        <a class="nav-link text-white" href="{{ 'login'|page }}">
+                        {% if not user %}
+                            Login
+                        {% else %}
+                            My profile
+                        {% endif %}
+                        </a>
+                        {% if user %}
+                            <a class="nav-link text-white" data-request="onLogout" data-request-data="redirect: '/'">Sign out</a>
+                        {% endif %}
+                        <a class="nav-link text-white" href="{{ 'add-actors'|page }}">Add actor</a>
+                        <a class="nav-link text-white" href="{{ 'contact'|page }}">contact</a>
+
                     </div>
             </nav>
     </div>

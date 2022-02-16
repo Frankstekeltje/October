@@ -1,8 +1,11 @@
 url = "/"
 layout = "default"
 title = "Homepage"
-==
 
+[actors]
+results = 0
+sortOrder = "name desc"
+==
 <div class="container">
     <h2>This is our homepage</h2>
 
@@ -37,5 +40,5 @@ title = "Homepage"
     </div>
     <div>Ad at consectetur cupiditate eaque error esse expedita explicabo iste mollitia numquam obcaecati, officia officiis
         quae quas quibusdam quos recusandae saepe sed soluta veniam? Aliquam consequatur fugit iure nobis quo.
-    </div>
+    </div>{% component 'actors' %}
 </div>
