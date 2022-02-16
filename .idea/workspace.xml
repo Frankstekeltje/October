@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c7c5cff-8a30-405d-80d8-15a781eba32e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/plugins/watchlearn/contact/components/ContactForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/watchlearn/contact/components/contactform/default.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/watchlearn/contact/views/mail/message.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/watchlearn/movies/components/Actors.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugins/watchlearn/movies/components/actors/default.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/watchlearn/movies/Plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/watchlearn/movies/Plugin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/demo/layouts/default.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/layouts/default.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/demo/pages/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/pages/index.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/demo/partials/site/header.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/partials/site/header.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/platform_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/platform_check.php" afterDir="false" />
-    </list>
+    <list default="true" id="2c7c5cff-8a30-405d-80d8-15a781eba32e" name="Changes" comment="" />
     <ignored path="$PROJECT_DIR$/vendor/brick/math/" />
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
     <ignored path="$PROJECT_DIR$/vendor/dflydev/dot-access-data/" />
@@ -536,16 +509,15 @@
       <workItem from="1644505939964" duration="716000" />
       <workItem from="1644507812595" duration="141000" />
       <workItem from="1644938323329" duration="2492000" />
-      <workItem from="1645000433672" duration="23612000" />
+      <workItem from="1645000433672" duration="23679000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28882000" />
+    <option name="totallyTimeSpent" value="28949000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
