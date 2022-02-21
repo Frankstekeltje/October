@@ -8,5 +8,28 @@ forceSecure = 0
 requirePassword = 0
 ==
 <div class="container">
-    {% component 'account' %}
+    {% if not user %}
+    
+        <div class="row">
+    
+            <div class="col-md-6">
+                <h3>Sign in</h3>
+                {% partial account ~ '::signin' %}
+            </div>
+    
+            <div class="col-md-6">
+                {% partial account ~ '::register' %}
+            </div>
+    
+        </div>
+    
+    {% else %}
+    
+        {% partial account ~ '::activation_check' %}
+    
+        {% partial 'site/user-update' %}
+    
+        {% partial account ~ '::deactivate_link' %}
+    
+    {% endif %}
 </div>

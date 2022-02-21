@@ -1,24 +1,23 @@
 <?php namespace Watchlearn\Contact\Components;
 
-use Cms\classes\ComponentBase;
+use Cms\Classes\ComponentBase;
 use Input;
 use Mail;
 use Validator;
 use Redirect;
 
+class ContactForm extends ComponentBase
+{
 
-class ContactForm extends ComponentBase{
-
-    public function componentDetails()
-    {
+    public function componentDetails(){
         return [
-          'name' => 'Contact Form',
-          'description' => 'Simple contact form'
+            'name' => 'Contact Form',
+            'description' => 'Simple contact form'
         ];
     }
 
-    public function onSend(){
 
+    public function onSend(){
         $validator = Validator::make(
             [
                 'name' => Input::get('name'),
@@ -30,19 +29,24 @@ class ContactForm extends ComponentBase{
             ]
         );
 
-        if ($validator->fails()){
-            return Redirect::back()->withErrors($validator);
-        }
-        else {
+        if($validator->fails()){
+            return ['#result' => $this->renderPartial('contactform::messages', [
+                'errorMsgs' => $validator->messages()->all(),
+                'fieldMsgs' => $validator->messages()
+            ])];
+
+
+        } else {
             $vars = ['name' => Input::get('name'), 'email' => Input::get('email'), 'content' => Input::get('content')];
 
-            Mail::send('watchlearn.contact::mail.message', $vars, function ($message) {
+            Mail::send('watchlearn.contact::mail.message', $vars, function($message) {
 
-                $message->to('frank.boltf@gmail.com', 'Admin Person');
+                $message->to('youremail@gmail.com', 'Admin Person');
                 $message->subject('New message from contact form');
 
             });
         }
 
     }
+
 }

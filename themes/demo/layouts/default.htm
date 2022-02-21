@@ -29,5 +29,9 @@ security = "all"
             {% partial 'site/footer' %}
         </footer>
 
+        <script src="{{ 'assets/compiled/js/app.js'|theme }}"></script>
+        {% framework extras %}
+        {% scripts %}
+
     </body>
 </html>

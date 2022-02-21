@@ -1,23 +1,17 @@
 <div class="container mb-5">
-    <form data-request="onSend" class="col-4-4-24">
+    <form data-request="contactform::onSend" class="col-4-4-24">
         <label>your name</label>
         <input class="form-control" type="text" name="name">
-        {{ errors.first('name') }}
+
 
         <label>Your email</label>
         <input class="form-control" type="email" name="email">
-        {{ errors.first('email') }}
+
 
         <label>Your message</label>
         <textarea class="form-control mb-3" type="content"></textarea>
 
         <button class="btn btn-primary" type="submit">Send</button>
-
-        <ul>
-            {% for errors in errors.all() %}
-                <li>{{ errors }}</li>
-            {% endfor %}
-        </ul>
-
     </form>
+    <div id="result"></div>
 </div>
