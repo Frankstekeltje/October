@@ -8,6 +8,15 @@ sortOrder = "name desc"
 
 [siteSearchInclude]
 ==
+<?
+    use WatchLearn\Movies\Models\Movie;
+
+    function onStart(){
+        $this['movies'] = Movie::take(4)->get();
+}
+
+?>
+==
 {% component 'siteSearchInclude' %}<div class="container">
     <form class="mt-5" action="{{ 'search' | page }}" method="get">
         <div class="row col-6">
@@ -15,6 +24,25 @@ sortOrder = "name desc"
             <button class="mx-2 col-3 btn btn-primary" type="submit">Search</button>
         </div>
     </form>
+
+    <div class="container mt-5">
+        <ul class="list-group">
+            {% for movie in movies %}
+            <li class="list-group-item">
+                {# Use spaceless tag to remove spaces inside the A tag. #}
+                <h3 class="fw-bold">
+                    <a href="/movies/movie/{{movie.slug}}">{{ movie.name }} - {{ movie.year }}</a>
+                </h3>
+                {{ html_limit(movie.description, 150)|raw }}
+            </li>
+            {% else %}
+            <li class="list-group-item no-data">No movies Found</li>
+            {% endfor %}
+        </ul>
+        <div>
+            {{movies.render|raw}}
+        </div>
+    </div>
 
     <h2>This is our homepage</h2>
 

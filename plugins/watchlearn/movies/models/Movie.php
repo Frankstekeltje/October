@@ -37,6 +37,7 @@ class Movie extends Model
             'table' => 'watchlearn_movies_actors_movies',
             'order' => 'name'
         ]
+
     ];
 
     public $attachOne = [
