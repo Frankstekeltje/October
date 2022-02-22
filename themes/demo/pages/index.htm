@@ -5,11 +5,17 @@ title = "Homepage"
 [actors]
 results = 0
 sortOrder = "name desc"
+
+[siteSearchInclude]
 ==
+{% component 'siteSearchInclude' %}<div class="container">
+    <form class="mt-5" action="{{ 'search' | page }}" method="get">
+        <div class="row col-6">
+            <input name="q" type="text" id="form1" class="form-control col" placeholder="What are you looking for?" autocomplete="off">
+            <button class="mx-2 col-3 btn btn-primary" type="submit">Search</button>
+        </div>
+    </form>
 
-
-
-<div class="container">
     <h2>This is our homepage</h2>
 
     <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus asperiores atque autem dicta doloremque eaque

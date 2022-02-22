@@ -3,9 +3,13 @@ layout = "default"
 title = "Contact"
 
 [contactform]
+
+[siteSearchInclude]
 ==
-<div class="container">
+{% component 'siteSearchInclude' %}<div class="container">
     <h2>Contact Page</h2>
+
+    This is our awesome contact page.
 
     {% component 'contactform' %}
 </div>
