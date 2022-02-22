@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c7c5cff-8a30-405d-80d8-15a781eba32e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/watchlearn/movies/models/Movie.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/watchlearn/movies/models/Movie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/demo/pages/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/pages/index.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/demo/pages/movie-single.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/pages/movie-single.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/demo/pages/movies.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/pages/movies.htm" afterDir="false" />
-    </list>
+    <list default="true" id="2c7c5cff-8a30-405d-80d8-15a781eba32e" name="Changes" comment="" />
     <ignored path="$PROJECT_DIR$/vendor/brick/math/" />
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
     <ignored path="$PROJECT_DIR$/vendor/dflydev/dot-access-data/" />
@@ -184,8 +178,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/demo/pages/movies.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -522,16 +516,15 @@
       <workItem from="1644507812595" duration="141000" />
       <workItem from="1644938323329" duration="2492000" />
       <workItem from="1645000433672" duration="23679000" />
-      <workItem from="1645517425645" duration="11361000" />
+      <workItem from="1645517425645" duration="11405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48920000" />
+    <option name="totallyTimeSpent" value="48964000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -911,8 +904,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/demo/pages/movies.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
