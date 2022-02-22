@@ -11,7 +11,8 @@
         "october/all": "^3.0",
         "rainlab/blog-plugin": "^1.5",
         "rainlab/builder-plugin": "^1.1",
-        "rainlab/user-plugin": "^1.6"
+        "rainlab/user-plugin": "^1.6",
+        "offline/sitesearch-plugin": "^1.5"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.5|^9.0",

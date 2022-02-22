@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "97a2108f21c80e6a67ca64e9a758a1f8",
+    "content-hash": "334e8c110c47c5a55e266a1eef64669e",
     "packages": [
         {
             "name": "brick/math",
@@ -3164,6 +3164,18 @@
                 "system"
             ],
             "time": "2022-02-01T22:21:10+00:00"
+        },
+        {
+            "name": "offline/sitesearch-plugin",
+            "version": "v1.5.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://gateway.octobercms.com/composer/dist/offline/sitesearch-plugin/offline-sitesearch-plugin.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "october-plugin"
         },
         {
             "name": "phpoption/phpoption",

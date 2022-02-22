@@ -1,10 +1,18 @@
 <div class="container mb-5">
-    <form data-request="onSave" class="col-4-4-24">
+    <form method="post" action="{{ url('add-actors') }}" accept-charset="UTF-8" enctype="multipart/form-data" class="col-4-4-24">
+
+        <input type="hidden" name="_handler" value="onSave">
+        {{ form_token() }}
+        {{ form_sessionKey() }}
+
         <label>Actor name</label>
         <input class="form-control" type="text" name="name">
 
         <label>Actor Last name</label>
         <input class="form-control mb-3" type="text" name="lastname">
+
+        <label>Actor image</label>
+        <input class="form-control mb-3" type="file" name="actorimage">
 
         <button class="btn btn-primary" type="submit">Save</button>
 

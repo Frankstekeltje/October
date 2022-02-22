@@ -1,6 +1,7 @@
 <?php namespace Watchlearn\Movies\Components;
 
 use Cms\classes\ComponentBase;
+use Cms\Helpers\File;
 use Input;
 use Validator;
 use Redirect;
@@ -24,6 +25,7 @@ class ActorForm extends ComponentBase{
 
         $actor->name = Input::get('name');
         $actor->lastname = Input::get('lastname');
+        $actor->actorimage = Input::file('actorimage');
         $actor->save();
 
         Flash::success('Actor Added!');

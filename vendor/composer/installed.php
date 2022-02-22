@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'e67fbfa793c9d876875e597eb6150885e206adf2',
+        'reference' => 'ee2474326540ea21a807771b1a7f825ef6a917b5',
         'name' => 'october/october',
         'dev' => true,
     ),
@@ -610,7 +610,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'e67fbfa793c9d876875e597eb6150885e206adf2',
+            'reference' => 'ee2474326540ea21a807771b1a7f825ef6a917b5',
             'dev_requirement' => false,
         ),
         'october/rain' => array(
@@ -629,6 +629,15 @@
             'install_path' => __DIR__ . '/../../modules/system',
             'aliases' => array(),
             'reference' => '5f86e13b5c7217313136e5248a6e49284376dbe6',
+            'dev_requirement' => false,
+        ),
+        'offline/sitesearch-plugin' => array(
+            'pretty_version' => 'v1.5.6',
+            'version' => '1.5.6.0',
+            'type' => 'october-plugin',
+            'install_path' => __DIR__ . '/../../plugins/offline/sitesearch',
+            'aliases' => array(),
+            'reference' => NULL,
             'dev_requirement' => false,
         ),
         'phar-io/manifest' => array(
