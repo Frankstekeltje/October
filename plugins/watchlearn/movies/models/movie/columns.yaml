@@ -8,3 +8,13 @@ columns:
         label: Year
         type: number
         sortable: true
+    poster:
+        label: Poster
+        type: partial
+        path: ~/plugins/watchlearn/movies/models/movie/_poster_column.htm
+    genres:
+        label: Genres
+        type: text
+        searchable: true
+        select: genre_title
+        relation: genres
