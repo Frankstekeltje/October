@@ -1,5 +1,5 @@
 <div class="container mb-5">
-    <form data-request="contactform::onSend" data-request-validate data-request-flash class="col-4-4-24">
+    <form data-request="contactform::onSend" data-request-validate data-request-flash class="col-4-4-24 contact-form">
         <label>your name</label>
         <input class="form-control" type="text" name="name">
         <span data-validate-for="name" class="alert-danger row">Hey! what about your name?</span>
@@ -12,5 +12,11 @@
         <textarea class="form-control mb-3" type="content"></textarea>
 
         <button class="btn btn-primary" type="submit" data-attach-loading>Send</button>
+            <div class="alert alert-danger mt-3" style="display: none">
+                Ooops. Something went wrong please check the required fields.
+            </div>
+            <div class=" alert alert-success" style="display: none">
+                Your message has been sent. Thank you.
+            </div>
     </form>
 </div>

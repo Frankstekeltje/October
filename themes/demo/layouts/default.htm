@@ -30,6 +30,19 @@ security = "all"
         </footer>
 
         <script src="{{ 'assets/compiled/js/app.js'|theme }}"></script>
+
+        <script type="text/javascript">
+            jQuery(document).ready(function($){
+                $('.contact-form').on('ajaxError', function(event, message){
+                    $('.alert-danger').show();
+                });
+                $('.contact-form').on('ajaxSuccess', function(event, message){
+                    $('.alert-danger').hide();
+                    $('.alert-success').show();
+                });
+            });
+        </script>
+
         {% framework extras %}
         {% scripts %}
 
