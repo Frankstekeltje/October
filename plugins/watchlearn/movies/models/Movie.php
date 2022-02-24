@@ -48,6 +48,8 @@ class Movie extends Model
         'movie_gallery' => 'System\Models\File'
     ];
 
+    protected $fillable = array('name','description','year','slug');
+
 
     /**
      * @var array Validation rules

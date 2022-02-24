@@ -92,7 +92,7 @@ class Lorem extends \Faker\Provider\Base
         $words = static::words($nbWords);
         $words[0] = ucwords($words[0]);
 
-        return join($words, ' ') . '.';
+        return join(' ',$words) . '.';
     }
 
     /**
@@ -131,7 +131,7 @@ class Lorem extends \Faker\Provider\Base
             $nbSentences = self::randomizeNbElements($nbSentences);
         }
 
-        return join(static::sentences($nbSentences), ' ');
+        return join(' ', static::sentences($nbSentences));
     }
 
     /**

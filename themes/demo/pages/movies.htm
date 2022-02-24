@@ -7,7 +7,7 @@ title = "Movies"
     use WatchLearn\Movies\Models\Movie;
 
     function onStart(){
-        $this['movies'] = Movie::orderBy('year', 'desc')->paginate(1);
+        $this['movies'] = Movie::orderBy('year', 'desc')->paginate(20);
         //$this['name'] = Input::get('name');
         //$this['movies'] = Movie::where('name', 'like', $this['name'])->get();
     }
