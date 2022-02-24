@@ -4654,6 +4654,21 @@
             "install-path": "../psy/psysh"
         },
         {
+            "name": "rahman/faker-plugin",
+            "version": "v1.0.1",
+            "version_normalized": "1.0.1.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://gateway.octobercms.com/composer/dist/rahman/faker-plugin/rahman-faker-plugin.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "october-plugin",
+            "installation-source": "dist",
+            "install-path": "../../plugins/rahman/faker"
+        },
+        {
             "name": "rainlab/blog-plugin",
             "version": "v1.5.2",
             "version_normalized": "1.5.2.0",

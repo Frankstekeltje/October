@@ -12,7 +12,8 @@
         "rainlab/blog-plugin": "^1.5",
         "rainlab/builder-plugin": "^1.1",
         "rainlab/user-plugin": "^1.6",
-        "offline/sitesearch-plugin": "^1.5"
+        "offline/sitesearch-plugin": "^1.5",
+        "rahman/faker-plugin": "^1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.5|^9.0",

@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c7c5cff-8a30-405d-80d8-15a781eba32e" name="Changes" comment="" />
+    <list default="true" id="2c7c5cff-8a30-405d-80d8-15a781eba32e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/plugins/watchlearn/movies/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/watchlearn/movies/models/Actor.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/watchlearn/movies/models/Actor.php" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/vendor/brick/math/" />
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
     <ignored path="$PROJECT_DIR$/vendor/dflydev/dot-access-data/" />
@@ -166,66 +172,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/demo/pages/movie-single.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="5" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/demo/pages/movies.htm">
+        <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/demo/pages/index.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/components/Actors.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-816" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/models/Actor.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/formwidgets/Actorbox.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+            <state relative-caret-position="272">
+              <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
               <folding>
-                <element signature="e#48#83#0#PHP" expanded="true" />
+                <element signature="e#7#42#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/models/Movie.php">
+        <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/models/Actor.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+            <state relative-caret-position="236">
+              <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -263,7 +226,6 @@
         <option value="$PROJECT_DIR$/themes/demo/partials/site/user-update.htm" />
         <option value="$PROJECT_DIR$/plugins/watchlearn/contact/components/ContactForm.php" />
         <option value="$PROJECT_DIR$/plugins/watchlearn/contact/components/contactform/default.htm" />
-        <option value="$PROJECT_DIR$/plugins/watchlearn/movies/models/Actor.php" />
         <option value="$PROJECT_DIR$/plugins/watchlearn/movies/components/ActorForm.php" />
         <option value="$PROJECT_DIR$/plugins/watchlearn/movies/components/actorform/default.htm" />
         <option value="$PROJECT_DIR$/plugins/offline/sitesearch/updates/version.yaml" />
@@ -274,6 +236,8 @@
         <option value="$PROJECT_DIR$/themes/demo/pages/movie-single.htm" />
         <option value="$PROJECT_DIR$/themes/demo/pages/index.htm" />
         <option value="$PROJECT_DIR$/themes/demo/pages/movies.htm" />
+        <option value="$PROJECT_DIR$/plugins/watchlearn/movies/models/Actor.php" />
+        <option value="$PROJECT_DIR$/plugins/watchlearn/movies/routes.php" />
       </list>
     </option>
   </component>
@@ -434,20 +398,10 @@
             <path>
               <item name="October" type="b2602c69:ProjectViewProjectNode" />
               <item name="October" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="October" type="b2602c69:ProjectViewProjectNode" />
-              <item name="October" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="October" type="b2602c69:ProjectViewProjectNode" />
-              <item name="October" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="watchlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -517,16 +471,18 @@
       <workItem from="1644938323329" duration="2492000" />
       <workItem from="1645000433672" duration="23679000" />
       <workItem from="1645517425645" duration="11405000" />
+      <workItem from="1645691489611" duration="1650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48964000" />
+    <option name="totallyTimeSpent" value="50614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -541,7 +497,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.34135976" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.34135976" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -578,9 +534,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plugins/rainlab/user/views/mail/invite.htm">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/rainlab/user/views/mail/activate.htm">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -842,18 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/components/Actors.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-816" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/models/Actor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/backend/classes/FormWidgetBase.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
@@ -871,9 +812,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/demo/pages/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/components/Actors.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/formwidgets/Actorbox.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
+        <state relative-caret-position="765">
           <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
           <folding>
             <element signature="e#48#83#0#PHP" expanded="true" />
@@ -883,8 +834,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/models/Movie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="646">
           <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/demo/pages/movies.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -895,17 +853,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/demo/pages/index.htm">
+    <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/models/Actor.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        <state relative-caret-position="236">
+          <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/demo/pages/movies.htm">
+    <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="272">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="e#7#42#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

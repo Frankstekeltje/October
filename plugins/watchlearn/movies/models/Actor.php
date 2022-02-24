@@ -37,6 +37,8 @@ class Actor extends Model
         return $this->name . " " . $this->lastname;
     }
 
+    protected $fillable = array('name', 'lastname');
+
     /**
      * @var array Validation rules
      */

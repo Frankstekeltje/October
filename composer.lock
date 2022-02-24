@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "334e8c110c47c5a55e266a1eef64669e",
+    "content-hash": "2f722a27d7e8d4ed8385e08049592262",
     "packages": [
         {
             "name": "brick/math",
@@ -3526,6 +3526,18 @@
                 "source": "https://github.com/bobthecow/psysh/tree/v0.11.1"
             },
             "time": "2022-01-03T13:58:38+00:00"
+        },
+        {
+            "name": "rahman/faker-plugin",
+            "version": "v1.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://gateway.octobercms.com/composer/dist/rahman/faker-plugin/rahman-faker-plugin.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "october-plugin"
         },
         {
             "name": "rainlab/blog-plugin",

@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'ee2474326540ea21a807771b1a7f825ef6a917b5',
+        'reference' => '8e75e3260477b06d62662384fc3e225e4ec8a9e7',
         'name' => 'october/october',
         'dev' => true,
     ),
@@ -610,7 +610,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'ee2474326540ea21a807771b1a7f825ef6a917b5',
+            'reference' => '8e75e3260477b06d62662384fc3e225e4ec8a9e7',
             'dev_requirement' => false,
         ),
         'october/rain' => array(
@@ -825,6 +825,15 @@
             'install_path' => __DIR__ . '/../psy/psysh',
             'aliases' => array(),
             'reference' => '570292577277f06f590635381a7f761a6cf4f026',
+            'dev_requirement' => false,
+        ),
+        'rahman/faker-plugin' => array(
+            'pretty_version' => 'v1.0.1',
+            'version' => '1.0.1.0',
+            'type' => 'october-plugin',
+            'install_path' => __DIR__ . '/../../plugins/rahman/faker',
+            'aliases' => array(),
+            'reference' => NULL,
             'dev_requirement' => false,
         ),
         'rainlab/blog-plugin' => array(
