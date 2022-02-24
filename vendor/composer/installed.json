@@ -4762,6 +4762,47 @@
             "install-path": "../../plugins/rainlab/builder"
         },
         {
+            "name": "rainlab/pages-plugin",
+            "version": "v1.4.11",
+            "version_normalized": "1.4.11.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://gateway.octobercms.com/composer/dist/rainlab/pages-plugin/rainlab-pages-plugin-56c9ac9263080d60c66056bacba5de3aa63f0f25-zip-6a6cd4.zip",
+                "reference": "56c9ac9263080d60c66056bacba5de3aa63f0f25",
+                "shasum": "b2fe3c89c1619d3b9d765d5250c859dc7efb1157"
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.5.9"
+            },
+            "time": "2021-12-28T22:02:18+00:00",
+            "type": "october-plugin",
+            "installation-source": "dist",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexey Bobkov",
+                    "email": "aleksey.bobkov@gmail.com",
+                    "role": "Co-founder"
+                },
+                {
+                    "name": "Samuel Georges",
+                    "email": "daftspunky@gmail.com",
+                    "role": "Co-founder"
+                }
+            ],
+            "description": "Pages plugin for October CMS",
+            "homepage": "https://octobercms.com/plugin/rainlab-pages",
+            "keywords": [
+                "october",
+                "octobercms",
+                "pages"
+            ],
+            "install-path": "../../plugins/rainlab/pages"
+        },
+        {
             "name": "rainlab/user-plugin",
             "version": "v1.6.1",
             "version_normalized": "1.6.1.0",

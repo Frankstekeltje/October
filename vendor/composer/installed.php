@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '8e75e3260477b06d62662384fc3e225e4ec8a9e7',
+        'reference' => '4e6e03ea403d92290afa31cd2b8d76ff818b6e27',
         'name' => 'october/october',
         'dev' => true,
     ),
@@ -610,7 +610,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '8e75e3260477b06d62662384fc3e225e4ec8a9e7',
+            'reference' => '4e6e03ea403d92290afa31cd2b8d76ff818b6e27',
             'dev_requirement' => false,
         ),
         'october/rain' => array(
@@ -852,6 +852,15 @@
             'install_path' => __DIR__ . '/../../plugins/rainlab/builder',
             'aliases' => array(),
             'reference' => '6df7563917c2038d5b88784b8204dbba123bfc94',
+            'dev_requirement' => false,
+        ),
+        'rainlab/pages-plugin' => array(
+            'pretty_version' => 'v1.4.11',
+            'version' => '1.4.11.0',
+            'type' => 'october-plugin',
+            'install_path' => __DIR__ . '/../../plugins/rainlab/pages',
+            'aliases' => array(),
+            'reference' => '56c9ac9263080d60c66056bacba5de3aa63f0f25',
             'dev_requirement' => false,
         ),
         'rainlab/user-plugin' => array(

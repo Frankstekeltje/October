@@ -1,0 +1,72 @@
+description = "Static layout"
+
+[resources]
+less[] = "layouts/default.less"
+
+[session]
+security = "all"
+
+[staticPage]
+useContent = 1
+default = 0
+
+[staticMenu]
+code = "headermenu"
+
+[staticMenu staticMenu2]
+code = "footermenu"
+==
+{% component 'staticPage' %}<!DOCTYPE html>
+<html>
+<head>
+    {% partial 'site/meta' %}
+</head>
+
+<body class="{{ 'page-'~this.page.id }}">
+
+<!-- Header -->
+<header class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+    <div class="container-fluid">
+        <h1 class="navbar-brand text-white">October Movies</h1>
+        <nav class="navbar-expand">
+            {% component 'staticMenu' %}
+        </nav>
+    </div>
+</header>
+
+<!-- Content -->
+<section id="layout-content" class="container" style="margin-top: 5%">
+    <h1>{{ this.page.title }}</h1>
+    {% page %}
+</section>
+
+
+<!-- Footer -->
+<footer class="footer bottom-0">
+    <div class="container-fluid position-absolute bg-dark text-white">
+        <nav class="footer-menu">
+            {% component 'staticMenu2' %}
+        </nav>
+    </div>
+</footer>
+
+
+<script src="{{ 'assets/compiled/js/app.js'|theme }}"></script>
+
+<script type="text/javascript">
+    jQuery(document).ready(function($){
+        $('.contact-form').on('ajaxError', function(event, message){
+            $('.alert-danger').show();
+        });
+        $('.contact-form').on('ajaxSuccess', function(event, message){
+            $('.alert-danger').hide();
+            $('.alert-success').show();
+        });
+    });
+</script>
+
+{% framework extras %}
+{% scripts %}
+
+</body>
+</html>
