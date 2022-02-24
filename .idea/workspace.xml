@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2c7c5cff-8a30-405d-80d8-15a781eba32e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/watchlearn/contact/components/contactform/default.htm" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/watchlearn/contact/components/contactform/default.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/demo/assets/vendor/bootstrap/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/assets/vendor/bootstrap/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/demo/layouts/default.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/layouts/default.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/watchlearn/movies/controllers/movies/_list_toolbar.htm" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/watchlearn/movies/controllers/movies/_list_toolbar.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/watchlearn/movies/controllers/movies/update.htm" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/watchlearn/movies/controllers/movies/update.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/watchlearn/movies/plugin.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/watchlearn/movies/plugin.yaml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/vendor/brick/math/" />
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
@@ -171,24 +171,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/plugins/watchlearn/contact/components/contactform/default.htm">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/controllers/movies/_list_toolbar.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="57" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/demo/layouts/default.htm">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/controllers/movies/update.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+            <state relative-caret-position="357">
+              <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -239,6 +235,8 @@
         <option value="$PROJECT_DIR$/themes/demo/assets/vendor/bootstrap/bootstrap.css" />
         <option value="$PROJECT_DIR$/plugins/watchlearn/contact/components/contactform/default.htm" />
         <option value="$PROJECT_DIR$/themes/demo/layouts/default.htm" />
+        <option value="$PROJECT_DIR$/plugins/watchlearn/movies/controllers/movies/_list_toolbar.htm" />
+        <option value="$PROJECT_DIR$/plugins/watchlearn/movies/controllers/movies/update.htm" />
       </list>
     </option>
   </component>
@@ -394,24 +392,24 @@
               <item name="October" type="462c0819:PsiDirectoryNode" />
               <item name="plugins" type="462c0819:PsiDirectoryNode" />
               <item name="watchlearn" type="462c0819:PsiDirectoryNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="October" type="b2602c69:ProjectViewProjectNode" />
               <item name="October" type="462c0819:PsiDirectoryNode" />
               <item name="plugins" type="462c0819:PsiDirectoryNode" />
               <item name="watchlearn" type="462c0819:PsiDirectoryNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="October" type="b2602c69:ProjectViewProjectNode" />
               <item name="October" type="462c0819:PsiDirectoryNode" />
               <item name="plugins" type="462c0819:PsiDirectoryNode" />
               <item name="watchlearn" type="462c0819:PsiDirectoryNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="contactform" type="462c0819:PsiDirectoryNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -481,12 +479,12 @@
       <workItem from="1644938323329" duration="2492000" />
       <workItem from="1645000433672" duration="23679000" />
       <workItem from="1645517425645" duration="11405000" />
-      <workItem from="1645691489611" duration="4659000" />
+      <workItem from="1645691489611" duration="5678000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53623000" />
+    <option name="totallyTimeSpent" value="54642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -544,16 +542,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/plugins/rainlab/user/components/account/default.htm">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/demo/partials/site/header.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/demo/pages/add-actors.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -865,13 +853,6 @@
         <state relative-caret-position="-69" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/demo/layouts/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/storage/logs/system.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-166453">
@@ -887,6 +868,27 @@
             <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/demo/layouts/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/controllers/movies/_list_toolbar.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="57" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/controllers/movies/update.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
         </state>
       </provider>
     </entry>
