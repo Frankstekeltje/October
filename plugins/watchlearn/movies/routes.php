@@ -47,4 +47,14 @@ Route::get('/populate-movies', function(){
         $movie->published = $faker->boolean($chanceOfGettingTrue = 50);
         $movie->save();
     }
+
+    return $movies;
+});
+
+
+Route::get('sitemap.xml', function(){
+    $movies = Movie::all();
+    $genres = Genre::all();
+
+    return Response::view('watchlearn.movies::sitemap', ['movies' => $movies, 'genres' => $genres])->header('Content-Type', 'text/xml');
 });
