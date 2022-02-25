@@ -41,3 +41,16 @@ $(function() {
         scrolling = false;
     }
 });
+
+// import {sayHi, sayBye} from "./sayhi";
+//
+// sayHi('john');
+// sayBye('jeko');
+
+class helloWorld{
+    constructor(){
+        alert('hello world');
+    }
+}
+
+new helloWorld();
