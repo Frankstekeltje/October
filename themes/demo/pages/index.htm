@@ -28,7 +28,7 @@ sortOrder = "name desc"
     <div class="container mt-5">
         <ul class="list-group">
             {% for movie in movies %}
-            <li class="list-group-item">
+            <li class="list-group-item border mt-3">
                 {# Use spaceless tag to remove spaces inside the A tag. #}
                 <h3 class="fw-bold">
                     <a href="/movies/movie/{{movie.slug}}">{{ movie.name }} - {{ movie.year }}</a>

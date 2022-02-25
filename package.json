@@ -57,6 +57,7 @@
         "sinon": "^7.4.1"
     },
     "dependencies": {
-        "cross-env": "^7.0.3"
+        "cross-env": "^7.0.3",
+        "semantic-ui-css": "^2.4.1"
     }
 }
