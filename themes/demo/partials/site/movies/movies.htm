@@ -1,0 +1,28 @@
+{% if movies|length %}
+
+{% for movie in movies %}
+    <div class="card" style="margin-bottom: 3%">
+        <div class="card-header alert-danger">{{movie.name}}</div>
+        <div class="card-body">
+            <div class="card-title">{{ movie.year }}</div>
+
+            <div class="card-text">
+                <ul class="row">
+                    {% for genre in movie.genres %}
+                    <li class="col-4">{{ genre.genre_title }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+
+{% else %}
+
+<div class="alert-danger text-center">
+    <p>
+        There are no movies that match the criteria.
+    </p>
+</div>
+
+{% endif %}
