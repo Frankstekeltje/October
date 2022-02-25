@@ -51,11 +51,11 @@ $(function () {
 // sayHi('john');
 // sayBye('jeko');
 
-var helloWorld = /*#__PURE__*/_createClass(function helloWorld() {
-  _classCallCheck(this, helloWorld);
-
-  alert('hello world');
-});
+// var helloWorld = /*#__PURE__*/_createClass(function helloWorld() {
+//   _classCallCheck(this, helloWorld);
+//
+//   alert('hello world');
+// });
 
 new helloWorld();
 /******/ })()

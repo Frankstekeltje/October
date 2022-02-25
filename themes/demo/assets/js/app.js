@@ -47,10 +47,10 @@ $(function() {
 // sayHi('john');
 // sayBye('jeko');
 
-class helloWorld{
-    constructor(){
-        alert('hello world');
-    }
-}
-
-new helloWorld();
+// class helloWorld{
+//     constructor(){
+//         alert('hello world');
+//     }
+// }
+//
+// new helloWorld();

@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c7c5cff-8a30-405d-80d8-15a781eba32e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/plugins/watchlearn/movies/views/sitemap.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/watchlearn/movies/components/FilterMovies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/watchlearn/movies/components/filtermovies/default.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/demo/pages/filtermovies.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/watchlearn/movies/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/watchlearn/movies/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/watchlearn/movies/Plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/watchlearn/movies/Plugin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/demo/assets/dist/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/assets/dist/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/demo/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/assets/js/app.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/vendor/brick/math/" />
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
@@ -170,23 +174,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/routes.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/components/filtermovies/default.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="55" column="27" lean-forward="true" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+            <state relative-caret-position="204">
+              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/demo/pages/movies.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="18" selection-start-line="18" selection-end-line="32" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/components/FilterMovies.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
               <folding>
-                <element signature="e#7#42#0#PHP" expanded="true" />
+                <element signature="e#47#77#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/views/sitemap.htm">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/Plugin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            <state relative-caret-position="-425">
+              <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/demo/pages/filtermovies.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -204,9 +235,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/plugins/watchlearn/movies/components/actors/default.htm" />
-        <option value="$PROJECT_DIR$/plugins/watchlearn/movies/components/Actors.php" />
-        <option value="$PROJECT_DIR$/plugins/watchlearn/contact/Plugin.php" />
         <option value="$PROJECT_DIR$/themes/demo/pages/contact.htm" />
         <option value="$PROJECT_DIR$/plugins/watchlearn/contact/views/mail/message.htm" />
         <option value="$PROJECT_DIR$/config/mail.php" />
@@ -220,11 +248,9 @@
         <option value="$PROJECT_DIR$/plugins/watchlearn/profile/Plugin.php" />
         <option value="$PROJECT_DIR$/themes/demo/partials/site/user-update.htm" />
         <option value="$PROJECT_DIR$/plugins/watchlearn/contact/components/ContactForm.php" />
-        <option value="$PROJECT_DIR$/plugins/watchlearn/movies/components/ActorForm.php" />
         <option value="$PROJECT_DIR$/plugins/watchlearn/movies/components/actorform/default.htm" />
         <option value="$PROJECT_DIR$/plugins/offline/sitesearch/updates/version.yaml" />
         <option value="$PROJECT_DIR$/themes/demo/pages/search.htm" />
-        <option value="$PROJECT_DIR$/plugins/watchlearn/movies/Plugin.php" />
         <option value="$PROJECT_DIR$/plugins/watchlearn/movies/formwidgets/Actorbox.php" />
         <option value="$PROJECT_DIR$/themes/demo/pages/movie-single.htm" />
         <option value="$PROJECT_DIR$/themes/demo/pages/index.htm" />
@@ -251,9 +277,15 @@
         <option value="$PROJECT_DIR$/themes/demo/layouts/default.htm" />
         <option value="$PROJECT_DIR$/webpack.mix.js" />
         <option value="$PROJECT_DIR$/themes/demo/assets/js/sayhi.js" />
-        <option value="$PROJECT_DIR$/themes/demo/assets/js/app.js" />
         <option value="$PROJECT_DIR$/plugins/watchlearn/movies/routes.php" />
         <option value="$PROJECT_DIR$/plugins/watchlearn/movies/views/sitemap.htm" />
+        <option value="$PROJECT_DIR$/themes/demo/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/themes/demo/assets/dist/js/app.js" />
+        <option value="$PROJECT_DIR$/plugins/watchlearn/movies/Plugin.php" />
+        <option value="$PROJECT_DIR$/themes/demo/pages/filtermovies.htm" />
+        <option value="$PROJECT_DIR$/plugins/watchlearn/movies/components/ActorForm.php" />
+        <option value="$PROJECT_DIR$/plugins/watchlearn/movies/components/FilterMovies.php" />
+        <option value="$PROJECT_DIR$/plugins/watchlearn/movies/components/filtermovies/default.htm" />
       </list>
     </option>
   </component>
@@ -417,6 +449,41 @@
               <item name="watchlearn" type="462c0819:PsiDirectoryNode" />
               <item name="movies" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="October" type="b2602c69:ProjectViewProjectNode" />
+              <item name="October" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="watchlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="October" type="b2602c69:ProjectViewProjectNode" />
+              <item name="October" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="watchlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="actorform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="October" type="b2602c69:ProjectViewProjectNode" />
+              <item name="October" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="October" type="b2602c69:ProjectViewProjectNode" />
+              <item name="October" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="October" type="b2602c69:ProjectViewProjectNode" />
+              <item name="October" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -486,12 +553,12 @@
       <workItem from="1644938323329" duration="2492000" />
       <workItem from="1645000433672" duration="23679000" />
       <workItem from="1645517425645" duration="11405000" />
-      <workItem from="1645691489611" duration="25523000" />
+      <workItem from="1645691489611" duration="30045000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74487000" />
+    <option name="totallyTimeSpent" value="79009000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -549,48 +616,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/demo/partials/site/user-update.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="35" column="110" selection-start-line="35" selection-start-column="110" selection-end-line="35" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/watchlearn/profile/updates/add_new_fields.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding>
-            <element signature="e#45#56#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/watchlearn/contact/components/contactform/messages.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/watchlearn/contact/components/ContactForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="e#48#78#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/components/actors/default.htm">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/october/rain/src/Parse/Yaml.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/offline/sitesearch/updates/version.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -619,30 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/Plugin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/components/actorform/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/components/ActorForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-          <folding>
-            <element signature="e#47#77#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/formwidgets/actorbox/partials/_widget.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -654,13 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
           <caret line="136" column="20" selection-start-line="136" selection-start-column="20" selection-end-line="136" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/demo/pages/index.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -769,13 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/demo/pages/movies.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/rahman/faker/vendor/fzaninotto/faker/src/Faker/Provider/Lorem.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -849,25 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/demo/assets/dist/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-722">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/demo/assets/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.mix.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -903,6 +871,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/demo/assets/dist/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="59" selection-start-line="59" selection-end-line="61" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/demo/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/views/sitemap.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -913,10 +908,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/views/sitemap.htm">
+    <entry file="file://$PROJECT_DIR$/themes/demo/pages/add-actors.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/demo/pages/blog.htm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/components/ActorForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/Plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-425">
+          <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/demo/pages/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/demo/pages/movies.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="18" selection-start-line="18" selection-end-line="32" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/components/actorform/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/components/actors/default.htm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/demo/pages/filtermovies.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/components/FilterMovies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <folding>
+            <element signature="e#47#77#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/watchlearn/movies/components/filtermovies/default.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
     </entry>
