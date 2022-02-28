@@ -8,7 +8,11 @@ title = "Filter movies"
     use Watchlearn\Movies\Models\Movie;
     use Watchlearn\Movies\Models\Genre;
 
-    function onStart() { $this->prepareVars(); }
+    function onStart() {
+            $this->prepareVars();
+            $this->prepareYears();
+        }
+
     function onFilterMovies() { $this->prepareVars(); }
 
 
@@ -17,17 +21,23 @@ title = "Filter movies"
 
     $this['movies'] = Movie::listFrontEnd($options);
     $this['genres'] = Genre::all();
+    $this['sortOptions'] = Movie::$allowedSortingOptions;
 
-    $movies = Movie::all();
-    $years = [];
-
-    foreach($movies as $movie){
-    $years[] = $movie->year;
     }
 
-    $years = array_unique($years);
+    function prepareYears(){
 
-    $this['years'] = $years;
+        $movies = Movie::all();
+        $years = [];
+
+        foreach($movies as $movie){
+            $years[] = $movie->year;
+        }
+
+        $years = array_unique($years);
+
+        $this['years'] = $years;
+
     }
 
 ?>
@@ -55,6 +65,16 @@ title = "Filter movies"
                             <option value="">Select Year</option>
                             {% for year in years|sort %}
                             <option value="{{year}}">{{ year }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label>Sorting</label>
+                        <select class="form-select" name="Filter[sort]">
+                            {% for code, option in sortOptions %}
+                                <option value="{{code}}">
+                                {{option}}
+                                </option>
                             {% endfor %}
                         </select>
                     </div>
