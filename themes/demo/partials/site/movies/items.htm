@@ -1,0 +1,14 @@
+<label>Items per Page</label>
+<select class="form-select" name="Filter[perPage]">
+    {% for v in 1..items %}
+        {% if v == item %}
+            <option value="{{v}}" selected>
+                {{perPage}}
+            </option>
+        {% else %}
+            <option value="{{v}}">
+                {{v}}
+            </option>
+        {% endif %}
+    {% endfor %}
+</select>

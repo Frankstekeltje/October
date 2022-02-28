@@ -11,6 +11,7 @@ title = "Filter movies"
     function onStart() {
             $this->prepareVars();
             $this->prepareYears();
+            $this->getCountItems();
         }
 
     function onFilterMovies() { $this->prepareVars(); }
@@ -22,7 +23,9 @@ title = "Filter movies"
     $this['movies'] = Movie::listFrontEnd($options);
     $this['genres'] = Genre::all();
     $this['sortOptions'] = Movie::$allowedSortingOptions;
-
+    $this['pages'] = $this['movies']->lastPage();
+    $this['page'] = $this['movies']->currentPage();
+    $this['items'] = count(Movie::all());
     }
 
     function prepareYears(){
@@ -40,13 +43,28 @@ title = "Filter movies"
 
     }
 
+    function getCountItems(){
+
+        $x = count(Movie::all());
+        $item = [];
+
+        for($i = 1;  $i<$x+1; $i++){
+            $item[] = $i;
+        }
+
+        $item = array_unique($item);
+        $this['item'] = $item;
+
+        //dd($item);
+    }
+
 ?>
 ==
 <div class="container">
     <h2>Filter movies</h2>
     <div class="row mt-3">
         <div class="col-3">
-            {{ form_ajax('onFilterMovies', { update: { 'site/movies/movies': '#partialMovies' } }) }}
+            {{ form_ajax('onFilterMovies', { update: { 'site/movies/movies': '#partialMovies', 'site/movies/paginate': '#partialPaginate', 'site/movies/items': '#partialItems'} }) }}
             <div id="MoviesFilter" class="movies-filter ui form">
                 <div class="ui segment vertical">
                     <label>Genres</label>
@@ -77,6 +95,12 @@ title = "Filter movies"
                                 </option>
                             {% endfor %}
                         </select>
+                    </div>
+                    <div class="field" id="partialPaginate">
+                        {% partial 'site/movies/paginate' %}
+                    </div>
+                    <div class="field" id="partialItems">
+                        {% partial 'site/movies/items' %}
                     </div>
                 </div>
             </div>

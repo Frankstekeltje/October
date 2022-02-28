@@ -1,17 +1,14 @@
-url = "/movies/movie/:slug"
+url = "/movies/:genre/:slug"
 layout = "default"
 title = "movie single"
-
 ==
-<?
-    use WatchLearn\Movies\Models\Movie;
+<?php
+use WatchLearn\Movies\Models\Movie;
 
     function onStart(){
         $this['movie'] = Movie::where('slug', '=', $this->param('slug'))->first();
 }
-
 ?>
-
 ==
 <div class="container mb-5">
     {% if movie %}
@@ -55,4 +52,3 @@ title = "movie single"
         {{ notFoundMessage }}
     {% endif %}
 </div>
-

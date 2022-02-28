@@ -1,12 +1,13 @@
 <?php namespace Watchlearn\Movies\Components;
 
 use Cms\classes\ComponentBase;
-use Cms\Helpers\File;
 use Input;
 use Validator;
 use Redirect;
 use Watchlearn\Movies\Models\Actor;
 use Flash;
+use ValidationException;
+use System\Models\File;
 
 
 class ActorForm extends ComponentBase{
@@ -19,7 +20,17 @@ class ActorForm extends ComponentBase{
         ];
     }
 
-    public function onSave(){
+    public function onSubmit(){
+        $validator = Validator::make(
+            $form = Input::all(), [
+                'name' => 'required',
+                'lastname' => 'required'
+            ]
+        );
+
+        if($validator->fails()){
+            throw new ValidationException($validator);
+        }
 
         $actor = new Actor();
 
@@ -29,7 +40,15 @@ class ActorForm extends ComponentBase{
         $actor->save();
 
         Flash::success('Actor Added!');
+    }
 
-        return Redirect::back();
+    public function onImageUpload(){
+        $image = Input::all();
+
+        $file = (new File())->fromPost($image['actorimage']);
+
+        return[
+          '#imageResult' => '<img src="' .$file->getThumb(200, 200, ['mode' => 'crop']) . '">'
+        ];
     }
 }

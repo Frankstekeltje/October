@@ -1,5 +1,5 @@
 <div class="container mb-5">
-    <form method="post" action="{{ url('add-actors') }}" accept-charset="UTF-8" enctype="multipart/form-data" class="col-4-4-24">
+    <form data-request="onSubmit" data-request-files data-request-flash class="col-4-4-24">
 
         <input type="hidden" name="_handler" value="onSave">
         {{ form_token() }}
@@ -12,12 +12,14 @@
         <input class="form-control mb-3" type="text" name="lastname">
 
         <label>Actor image</label>
-        <input class="form-control mb-3" type="file" name="actorimage">
-
+        <input class="form-control mb-3" type="file" name="actorimage" accept="image/*" data-request="onImageUpload" data-request-files data-request-flash>
+        <div id="#imageResult">
+        </div>
+        <br>
         <button class="btn btn-primary" type="submit">Save</button>
 
-        {% flash success %}
-            <p>{{ message }}</p>
-        {% endflash %}
+        <!--{% flash success %}-->
+            <!--<p>{{ message }}</p>-->
+        <!--{% endflash %}-->
     </form>
 </div>
